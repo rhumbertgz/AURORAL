@@ -119,7 +119,7 @@
     <property role="EcuMT" value="8407939526466913553" />
     <property role="TrG5h" value="StringLiteral" />
     <property role="3GE5qa" value="literal" />
-    <property role="34LRSv" value="string" />
+    <property role="34LRSv" value="&quot;" />
     <ref role="1TJDcQ" node="7iJ07f01StE" resolve="Expression" />
     <node concept="1TJgyi" id="7iJ07f01Gki" role="1TKVEl">
       <property role="IQ2nx" value="8407939526466913554" />
