@@ -252,25 +252,28 @@
     <property role="EcuMT" value="7650289774693915207" />
     <property role="3GE5qa" value="expression.binary" />
     <property role="TrG5h" value="GreaterThanExpression" />
-    <property role="34LRSv" value="&gt;=" />
+    <property role="34LRSv" value="&gt;" />
     <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
   </node>
   <node concept="1TIwiD" id="6CFiwhxsira">
     <property role="EcuMT" value="7650289774694049482" />
     <property role="3GE5qa" value="expression.binary" />
     <property role="TrG5h" value="LessThanExpression" />
+    <property role="34LRSv" value="&lt;" />
     <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
   </node>
   <node concept="1TIwiD" id="6CFiwhxsirb">
     <property role="EcuMT" value="7650289774694049483" />
     <property role="3GE5qa" value="expression.binary" />
     <property role="TrG5h" value="GreaterEqualsExpression" />
+    <property role="34LRSv" value="&gt;=" />
     <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
   </node>
   <node concept="1TIwiD" id="6CFiwhxsirc">
     <property role="EcuMT" value="7650289774694049484" />
     <property role="3GE5qa" value="expression.binary" />
     <property role="TrG5h" value="LessEqualsExpression" />
+    <property role="34LRSv" value="&lt;=" />
     <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
   </node>
 </model>
