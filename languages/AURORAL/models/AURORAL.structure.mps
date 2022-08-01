@@ -248,5 +248,12 @@
       <ref role="20lvS9" node="7iJ07f01StE" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6CFiwhxrLD7">
+    <property role="EcuMT" value="7650289774693915207" />
+    <property role="3GE5qa" value="expression.binary" />
+    <property role="TrG5h" value="GreaterThanExpression" />
+    <property role="34LRSv" value="&gt;=" />
+    <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
+  </node>
 </model>
 
