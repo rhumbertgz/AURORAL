@@ -85,6 +85,14 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
+        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
+      </concept>
+      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
+        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
+      </concept>
+    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
@@ -692,6 +700,32 @@
     <node concept="1YaCAy" id="6CFiwhxr4NX" role="1YuTPh">
       <property role="TrG5h" value="notEqualsExpression" />
       <ref role="1YaFvo" to="e4a7:7iJ07f01SO2" resolve="NotEqualsExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6CFiwhxsRLe">
+    <property role="TrG5h" value="typeof_BinaryComparisonExpression" />
+    <property role="3GE5qa" value="expression.binary" />
+    <node concept="3clFbS" id="6CFiwhxsRLf" role="18ibNy">
+      <node concept="1Z5TYs" id="6CFiwhxsS1O" role="3cqZAp">
+        <node concept="mw_s8" id="6CFiwhxsS28" role="1ZfhKB">
+          <node concept="2pJPEk" id="6CFiwhxsS24" role="mwGJk">
+            <node concept="2pJPED" id="6CFiwhxsS26" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6CFiwhxsS1R" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6CFiwhxsRLl" role="mwGJk">
+            <node concept="1YBJjd" id="6CFiwhxsRNd" role="1Z2MuG">
+              <ref role="1YBMHb" node="6CFiwhxsRLh" resolve="binaryComparisonExpression" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6CFiwhxsRLh" role="1YuTPh">
+      <property role="TrG5h" value="binaryComparisonExpression" />
+      <ref role="1YaFvo" to="e4a7:6CFiwhxsRJZ" resolve="BinaryComparisonExpression" />
     </node>
   </node>
 </model>
