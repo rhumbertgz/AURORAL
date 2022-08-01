@@ -590,24 +590,6 @@
     <property role="TrG5h" value="typeof_EqualsExpression" />
     <property role="3GE5qa" value="expression.binary" />
     <node concept="3clFbS" id="6CFiwhxr0x7" role="18ibNy">
-      <node concept="1Z5TYs" id="6CFiwhxr101" role="3cqZAp">
-        <node concept="mw_s8" id="6CFiwhxr10l" role="1ZfhKB">
-          <node concept="2ShNRf" id="6CFiwhxr10h" role="mwGJk">
-            <node concept="3zrR0B" id="6CFiwhxr17S" role="2ShVmc">
-              <node concept="3Tqbb2" id="6CFiwhxr17U" role="3zrR0E">
-                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="6CFiwhxr104" role="1ZfhK$">
-          <node concept="1Z2H0r" id="6CFiwhxr0xd" role="mwGJk">
-            <node concept="1YBJjd" id="6CFiwhxr0z5" role="1Z2MuG">
-              <ref role="1YBMHb" node="6CFiwhxr0x9" resolve="equalsExpression" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="1Z5TYs" id="6CFiwhxr83O" role="3cqZAp">
         <property role="3wDh2S" value="true" />
         <node concept="mw_s8" id="6CFiwhxr84h" role="1ZfhKB">
