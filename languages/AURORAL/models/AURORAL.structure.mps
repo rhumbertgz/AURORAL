@@ -200,7 +200,7 @@
     <property role="3GE5qa" value="expression.binary" />
     <property role="TrG5h" value="EqualsExpression" />
     <property role="34LRSv" value="==" />
-    <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
+    <ref role="1TJDcQ" node="6CFiwhxsRJZ" resolve="BinaryComparisonExpression" />
   </node>
   <node concept="1TIwiD" id="7iJ07f01SO2">
     <property role="EcuMT" value="8407939526466964738" />
