@@ -845,5 +845,36 @@
       </node>
     </node>
   </node>
+  <node concept="1YbPZF" id="6CFiwhxtbyR">
+    <property role="TrG5h" value="typeof_Variable" />
+    <property role="3GE5qa" value="statement" />
+    <node concept="3clFbS" id="6CFiwhxtbyS" role="18ibNy">
+      <node concept="1Z5TYs" id="6CFiwhxtbLi" role="3cqZAp">
+        <node concept="mw_s8" id="6CFiwhxtbLA" role="1ZfhKB">
+          <node concept="1Z2H0r" id="6CFiwhxtbLy" role="mwGJk">
+            <node concept="2OqwBi" id="6CFiwhxtbVt" role="1Z2MuG">
+              <node concept="1YBJjd" id="6CFiwhxtbLR" role="2Oq$k0">
+                <ref role="1YBMHb" node="6CFiwhxtbyU" resolve="variable" />
+              </node>
+              <node concept="3TrEf2" id="6CFiwhxtc8X" role="2OqNvi">
+                <ref role="3Tt5mk" to="e4a7:7iJ07f01Mh2" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6CFiwhxtbLl" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6CFiwhxtbyY" role="mwGJk">
+            <node concept="1YBJjd" id="6CFiwhxtb$Q" role="1Z2MuG">
+              <ref role="1YBMHb" node="6CFiwhxtbyU" resolve="variable" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6CFiwhxtbyU" role="1YuTPh">
+      <property role="TrG5h" value="variable" />
+      <ref role="1YaFvo" to="e4a7:7iJ07f01tTB" resolve="Variable" />
+    </node>
+  </node>
 </model>
 
