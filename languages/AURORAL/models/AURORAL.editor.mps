@@ -11,6 +11,7 @@
     <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(AURORAL.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ifjb" ref="r:ec67d302-9674-4e05-9924-030ace509a2a(AURORAL.behavior)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -29,6 +30,13 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -82,6 +90,9 @@
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="5083944728298846680" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell" flags="ng" index="_tjkj">
+        <child id="5083944728298846681" name="option" index="_tjki" />
+      </concept>
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n">
         <child id="8207263695491669778" name="leftAssociative" index="2EmT7a" />
         <child id="8207263695491670784" name="priority" index="2EmURo" />
@@ -185,6 +196,20 @@
       </node>
       <node concept="3F0A7n" id="7iJ07f01MAn" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="_tjkj" id="6CFiwhxv409" role="3EZMnx">
+        <node concept="3EZMnI" id="6CFiwhxv40j" role="_tjki">
+          <node concept="3F0ifn" id="6CFiwhxv40q" role="3EZMnx">
+            <property role="3F0ifm" value=":" />
+            <node concept="11LMrY" id="6CFiwhxvzAD" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F1sOY" id="6CFiwhxv40w" role="3EZMnx">
+            <ref role="1NtTu8" to="e4a7:6CFiwhxthpj" resolve="type" />
+          </node>
+          <node concept="2iRfu4" id="6CFiwhxv40m" role="2iSdaV" />
+        </node>
       </node>
       <node concept="3F0ifn" id="7iJ07f01Png" role="3EZMnx">
         <property role="3F0ifm" value="=" />
@@ -360,6 +385,16 @@
     <property role="3GE5qa" value="menus" />
     <ref role="aqKnT" to="e4a7:6CFiwhx9yBk" resolve="ExpressionStatement" />
     <node concept="22hDWj" id="6CFiwhxpkjz" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="6CFiwhxtiqf">
+    <property role="3GE5qa" value="type" />
+    <ref role="1XX52x" to="e4a7:6CFiwhxtiq4" resolve="Type" />
+    <node concept="PMmxH" id="6CFiwhxtiqh" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <node concept="VechU" id="6CFiwhxtiqk" role="3F10Kt">
+        <property role="Vb096" value="g1_eI4o/darkBlue" />
+      </node>
+    </node>
   </node>
 </model>
 
