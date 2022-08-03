@@ -331,5 +331,12 @@
     <property role="34LRSv" value="string" />
     <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
   </node>
+  <node concept="1TIwiD" id="6CFiwhxwdZS">
+    <property role="EcuMT" value="7650289774695079928" />
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="BooleanType" />
+    <property role="34LRSv" value="boolean" />
+    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+  </node>
 </model>
 
