@@ -93,6 +93,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7iJ07f01StE" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="6CFiwhxthpj" role="1TKVEi">
+      <property role="IQ2ns" value="7650289774694307411" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <ref role="20lvS9" node="6CFiwhxtiq4" resolve="Type" />
+    </node>
     <node concept="PrWs8" id="7iJ07f01tTC" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -289,6 +295,41 @@
     <property role="TrG5h" value="ArithmeticBinaryExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7iJ07f01SNs" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="6CFiwhxtiq4">
+    <property role="EcuMT" value="7650289774694311556" />
+    <property role="TrG5h" value="Type" />
+    <property role="3GE5qa" value="type" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="6CFiwhxtiq5">
+    <property role="EcuMT" value="7650289774694311557" />
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="IntegerType" />
+    <property role="34LRSv" value="int" />
+    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="6CFiwhxtiq6">
+    <property role="EcuMT" value="7650289774694311558" />
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="FloatType" />
+    <property role="34LRSv" value="float" />
+    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="6CFiwhxtiq7">
+    <property role="EcuMT" value="7650289774694311559" />
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="DoubleType" />
+    <property role="34LRSv" value="double" />
+    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="6CFiwhxtiqj">
+    <property role="EcuMT" value="7650289774694311571" />
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="StringType" />
+    <property role="34LRSv" value="string" />
+    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
   </node>
 </model>
 
