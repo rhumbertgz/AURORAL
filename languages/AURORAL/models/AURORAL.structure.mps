@@ -308,21 +308,21 @@
     <property role="3GE5qa" value="type" />
     <property role="TrG5h" value="IntegerType" />
     <property role="34LRSv" value="int" />
-    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+    <ref role="1TJDcQ" node="6CFiwhxwpIT" resolve="NumberType" />
   </node>
   <node concept="1TIwiD" id="6CFiwhxtiq6">
     <property role="EcuMT" value="7650289774694311558" />
     <property role="3GE5qa" value="type" />
     <property role="TrG5h" value="FloatType" />
     <property role="34LRSv" value="float" />
-    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+    <ref role="1TJDcQ" node="6CFiwhxwpIT" resolve="NumberType" />
   </node>
   <node concept="1TIwiD" id="6CFiwhxtiq7">
     <property role="EcuMT" value="7650289774694311559" />
     <property role="3GE5qa" value="type" />
     <property role="TrG5h" value="DoubleType" />
     <property role="34LRSv" value="double" />
-    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+    <ref role="1TJDcQ" node="6CFiwhxwpIT" resolve="NumberType" />
   </node>
   <node concept="1TIwiD" id="6CFiwhxtiqj">
     <property role="EcuMT" value="7650289774694311571" />
@@ -336,6 +336,13 @@
     <property role="3GE5qa" value="type" />
     <property role="TrG5h" value="BooleanType" />
     <property role="34LRSv" value="boolean" />
+    <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="6CFiwhxwpIT">
+    <property role="EcuMT" value="7650289774695127993" />
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="NumberType" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="6CFiwhxtiq4" resolve="Type" />
   </node>
 </model>
