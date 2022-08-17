@@ -13,6 +13,7 @@
   <sourcePath />
   <languageVersions>
     <language slang="l:d10458f8-1f94-4a0c-93d4-564135abfa98:AURORAL" version="0" />
+    <language slang="l:ddb00f44-ea7e-43c5-a1c3-2ba4a4302137:TEST.AURORAL" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
