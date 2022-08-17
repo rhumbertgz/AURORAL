@@ -21,4 +21,11 @@ junit*.properties
 /languages/AURORAL/sandbox/classes_gen
 /languages/AURORAL/sandbox/source_gen.caches
 /languages/AURORAL/sandbox/source_gen
+
+/languages/TEST.AURORAL/classes_gen
+/languages/TEST.AURORAL/generator/source_gen.caches
+/languages/TEST.AURORAL/generator/source_gen
+/languages/TEST.AURORAL/source_gen.caches
+/languages/TEST.AURORAL/source_gen
+
 .DS_Store
