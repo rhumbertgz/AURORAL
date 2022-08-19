@@ -12,20 +12,20 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
-/languages/AURORAL/classes_gen
-/languages/AURORAL/source_gen
-/languages/AURORAL/source_gen.caches
-/languages/AURORAL/generator/source_gen.caches
-/languages/AURORAL/generator/classes_gen
-/languages/AURORAL/generator/source_gen
-/languages/AURORAL/sandbox/classes_gen
-/languages/AURORAL/sandbox/source_gen.caches
-/languages/AURORAL/sandbox/source_gen
+/languages/be.vub.soft.auroral/classes_gen
+/languages/be.vub.soft.auroral/source_gen
+/languages/be.vub.soft.auroral/source_gen.caches
+/languages/be.vub.soft.auroral/generator/source_gen.caches
+/languages/be.vub.soft.auroral/generator/classes_gen
+/languages/be.vub.soft.auroral/generator/source_gen
+/languages/be.vub.soft.auroral/sandbox/classes_gen
+/languages/be.vub.soft.auroral/sandbox/source_gen.caches
+/languages/be.vub.soft.auroral/sandbox/source_gen
 
-/languages/TEST.AURORAL/classes_gen
-/languages/TEST.AURORAL/generator/source_gen.caches
-/languages/TEST.AURORAL/generator/source_gen
-/languages/TEST.AURORAL/source_gen.caches
-/languages/TEST.AURORAL/source_gen
+/languages/be.vub.soft.auroral.tests/classes_gen
+/languages/be.vub.soft.auroral.tests/generator/source_gen.caches
+/languages/be.vub.soft.auroral.tests/generator/source_gen
+/languages/be.vub.soft.auroral.tests/source_gen.caches
+/languages/be.vub.soft.auroral.tests/source_gen
 
 .DS_Store
