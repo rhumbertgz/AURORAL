@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral/be.vub.soft.auroral.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral/runtime/AURORAL.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral/sandbox/be.vub.soft.auroral.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/be.vub.soft.auroral.testbox/be.vub.soft.auroral.testbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
