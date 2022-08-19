@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:4c2fa9f6-d8a4-4781-91b2-7da329239f82(AURORAL.editor)">
+<model ref="r:4c2fa9f6-d8a4-4781-91b2-7da329239f82(be.vub.soft.auroral.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
@@ -8,9 +8,9 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(AURORAL.structure)" implicit="true" />
+    <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(be.vub.soft.auroral.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="ifjb" ref="r:ec67d302-9674-4e05-9924-030ace509a2a(AURORAL.behavior)" implicit="true" />
+    <import index="ifjb" ref="r:ec67d302-9674-4e05-9924-030ace509a2a(be.vub.soft.auroral.behavior)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>

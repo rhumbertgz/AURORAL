@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5c3b64a7-00b6-41ca-b474-87a430beb273(TEST.AURORAL.generator.templates@generator)">
+<model ref="r:5c3b64a7-00b6-41ca-b474-87a430beb273(be.vub.soft.auroral.tests.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="o99v" ref="r:9e6fe92a-84d4-4b1a-a780-4cfe2a62803d(TEST.AURORAL.structure)" />
+    <import index="o99v" ref="r:9e6fe92a-84d4-4b1a-a780-4cfe2a62803d(be.vub.soft.auroral.tests.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">

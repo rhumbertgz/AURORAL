@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0ad5daa3-6e3a-487b-a133-36d06f8a67ad(AURORAL.constraints)">
+<model ref="r:0ad5daa3-6e3a-487b-a133-36d06f8a67ad(be.vub.soft.auroral.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/AURORAL/AURORAL.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/AURORAL/sandbox/AURORAL.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/TEST.AURORAL/TEST.AURORAL.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral.tests/be.vub.soft.auroral.tests.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral/be.vub.soft.auroral.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral/runtime/AURORAL.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/be.vub.soft.auroral/sandbox/be.vub.soft.auroral.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

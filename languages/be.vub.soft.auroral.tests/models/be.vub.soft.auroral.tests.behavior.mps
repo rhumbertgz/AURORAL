@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8f2f89ec-ff03-48f3-9991-fa65c8542d1c(TEST.AURORAL.behavior)">
+<model ref="r:8f2f89ec-ff03-48f3-9991-fa65c8542d1c(be.vub.soft.auroral.tests.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
@@ -7,8 +7,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="ifjb" ref="r:ec67d302-9674-4e05-9924-030ace509a2a(AURORAL.behavior)" />
-    <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(AURORAL.structure)" />
+    <import index="ifjb" ref="r:ec67d302-9674-4e05-9924-030ace509a2a(be.vub.soft.auroral.behavior)" />
+    <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(be.vub.soft.auroral.structure)" />
     <import index="o99v" ref="r:9e6fe92a-84d4-4b1a-a780-4cfe2a62803d(TEST.AURORAL.structure)" implicit="true" />
   </imports>
   <registry>

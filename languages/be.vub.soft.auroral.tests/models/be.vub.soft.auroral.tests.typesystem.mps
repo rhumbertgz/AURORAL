@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:2f72fb8e-4423-450c-847a-70ce6a920bd3(TEST.AURORAL.typesystem)">
+<model ref="r:2f72fb8e-4423-450c-847a-70ce6a920bd3(be.vub.soft.auroral.tests.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="452g" ref="r:4ec5fdd7-c2e5-410d-aac8-65f9c788598b(AURORAL.typesystem)" />
-    <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(AURORAL.structure)" />
-    <import index="o99v" ref="r:9e6fe92a-84d4-4b1a-a780-4cfe2a62803d(TEST.AURORAL.structure)" implicit="true" />
+    <import index="452g" ref="r:4ec5fdd7-c2e5-410d-aac8-65f9c788598b(be.vub.soft.auroral.typesystem)" />
+    <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(be.vub.soft.auroral.structure)" />
+    <import index="o99v" ref="r:9e6fe92a-84d4-4b1a-a780-4cfe2a62803d(be.vub.soft.auroral.tests.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
