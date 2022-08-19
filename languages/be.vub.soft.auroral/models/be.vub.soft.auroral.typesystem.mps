@@ -9,6 +9,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpeh" ref="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
+    <import index="ifjb" ref="r:ec67d302-9674-4e05-9924-030ace509a2a(be.vub.soft.auroral.behavior)" implicit="true" />
     <import index="e4a7" ref="r:44f51fcf-a58e-42dc-a5c2-de931ec977af(be.vub.soft.auroral.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -176,6 +177,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
@@ -197,9 +199,6 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
-      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
-        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -239,7 +238,7 @@
     </language>
   </registry>
   <node concept="18kY7G" id="6CFiwhxb2yj">
-    <property role="TrG5h" value="check_Application" />
+    <property role="TrG5h" value="check_duplicate_var_names" />
     <node concept="3clFbS" id="6CFiwhxb2yk" role="18ibNy">
       <node concept="3cpWs8" id="6CFiwhxb7ER" role="3cqZAp">
         <node concept="3cpWsn" id="6CFiwhxb7EU" role="3cpWs9">
@@ -259,10 +258,10 @@
           <node concept="2OqwBi" id="6CFiwhxb4p9" role="2Oq$k0">
             <node concept="2OqwBi" id="6CFiwhxb2GW" role="2Oq$k0">
               <node concept="1YBJjd" id="6CFiwhxb2yq" role="2Oq$k0">
-                <ref role="1YBMHb" node="6CFiwhxb2ym" resolve="application" />
+                <ref role="1YBMHb" node="6CFiwhxb2ym" resolve="statementContainer" />
               </node>
-              <node concept="3Tsc0h" id="6CFiwhxb2Tw" role="2OqNvi">
-                <ref role="3TtcxE" to="e4a7:7iJ07f01tTO" resolve="content" />
+              <node concept="2qgKlT" id="2WVI$JQGa5o" role="2OqNvi">
+                <ref role="37wK5l" to="ifjb:1vv2fhyQ_cd" resolve="getStatements" />
               </node>
             </node>
             <node concept="v3k3i" id="6CFiwhxb6uG" role="2OqNvi">
@@ -344,8 +343,8 @@
       </node>
     </node>
     <node concept="1YaCAy" id="6CFiwhxb2ym" role="1YuTPh">
-      <property role="TrG5h" value="application" />
-      <ref role="1YaFvo" to="e4a7:7iJ07f01kAB" resolve="Application" />
+      <property role="TrG5h" value="statementContainer" />
+      <ref role="1YaFvo" to="e4a7:1vv2fhyQ$2G" resolve="StatementContainer" />
     </node>
   </node>
   <node concept="1YbPZF" id="6CFiwhxeqc3">
